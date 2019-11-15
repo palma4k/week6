@@ -1,0 +1,120 @@
+
+html { font-size: 10px;
+font-family: Helvetica, Arial, sans-serif; }
+
+header { padding: 2rem; 
+    color:chocolate;
+background-color:beige;
+text-align: center; 
+}
+
+h1 {
+    font-size: 8rem;
+    color: darkgreen;
+    background-color:beige;
+    text-align: center;
+    border-bottom-color:darkgreen;
+    border-bottom-width: 1rem;
+    border-bottom-style: outset;   
+}
+
+li{ font-size: 3rem;   
+}
+
+li{ line-height: 1.5; }
+
+a:link { color: #e60000; }
+
+a:visited { color:#b300b3; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }
+
+img {
+  display: block;
+  margin: 0 auto;
+padding:0 auto;
+}
+
+section {   
+    list-style-position: none;
+    margin:auto;
+    padding-bottom:.7rem;
+    background-color: cornsilk;
+    font-size: 3rem;
+    text-align: center; 
+}
+
+aside {
+    list-style-position: none;
+    margin:auto;
+    padding-bottom:.7rem;
+    background-color: cornsilk;
+    font-size: 3rem;
+    text-align: center;   
+}
+
+h2 {
+    font-size: 7rem;
+	text-align: center;
+    color: black;
+    padding: 7rem;
+}
+
+figcaption {
+    text-align:center;
+    font-size: 2rem;
+}
+
+div{
+    text-align: left;
+    line-height: 1.5;
+    column-count: 4; 
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; 
+}
+
+footer {
+    background-color: black;
+    text-align: right;
+    color:chartreuse;
+    font-size: 2rem;
+    border-bottom-color: floralwhite;
+    border-bottom-width: .5rem;
+    border-bottom-style: solid;
+}
+
+body {
+  background-color: royaltan;
+}
+
+
+
+figure {
+float: left;
+padding-right: 2em;
+}
+ figure img {
+width: 50%;
+}
+image {
+clear: left;
+}
+
+.intro {
+
+position: relative
+/* relative positioning means move it this far from where it would normally be */
+top: 20px;
+left: 20px;
+font-size: 1.5em;
+color: #333333;
+
+}
